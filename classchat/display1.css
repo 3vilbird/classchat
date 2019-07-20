@@ -1,0 +1,158 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}html{
+
+	background-image: url(nat.jpg);
+	font-size: 10px;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	position: absolute;
+	text-align: center;
+}
+#hmm{
+margin-top: 0px;
+	float: left;
+}
+.display{background:#222;
+	background:linear-gradient(#333333,#222222);
+	border:1px solid #444;
+	border-radius: 5px;
+	box-shadow: 0 2 px 0 #000 0;
+	color: #888;
+	display: block;
+font-family:arial;
+height: 40px;
+width: 400px;
+font-size: 14px;
+margin: 20px auto 10px;
+padding:0 10px;
+text-shadow: 0 -1px 0 #000;
+	
+}
+.display2{background:#222;
+	background:linear-gradient(#333333,#222222);
+	border:1px solid #444;
+	border-radius: 5px;
+	box-shadow: 0 2 px 0 #000 0;
+	color: #888;
+	display: block;
+font-family:arial;
+height: 40px;
+width: 400px;
+font-size: 14px;
+margin:20px auto 10px;
+padding:0 10px;
+text-shadow: 0 -1px 0 #000;
+}
+#display1{
+	background:linear-gradient(#333333,#222222);
+	border:1px solid #444;
+	border-radius: 5px;
+	box-shadow: 2px 2px 25px white;
+	color: #888;
+	display: block;
+font-family:arial;
+height: 620px;
+width: 1220px;
+font-size: 14px;
+margin: 20px auto 10px;
+padding:0 10px;
+text-shadow: 0 -1px 0 #000;
+overflow-y: scroll;
+overflow-x: hidden;
+}
+.display1{background:linear-gradient(#333333,#222222);
+	border:1px solid #444;
+	border-radius: 5px;
+	box-shadow: 0 2 px 0 #000 0;
+	color: #888;
+	display: block;
+font-family:arial;
+height: 338px;
+width: 420px;
+font-size: 14px;
+margin: 20px auto 10px;
+padding:0 10px;
+text-shadow: 0 -1px 0 #000;
+}
+.display1:hover{border:1.5px solid cyan;}
+.display1 input{
+	background:linear-gradient(#333333,#222222);
+	
+	border-radius: 5px;
+	
+	display: block;
+font-family:arial;
+height: 40px;
+width: 400px;
+font-size: 14px;
+margin: 20px auto 10px;
+padding:0 10px;
+text-shadow: 0 -1px 0 #000;
+
+}
+.display1 select{
+	background:linear-gradient(#333333,#222222);
+	border:1px solid #444;
+	border-radius: 5px;
+	box-shadow: 0 2 px 0 #000 0;
+	color: #888;
+	display: block;
+font-family:arial;
+height: 40px;
+width: 400px;
+font-size: 14px;
+margin: 20px auto 10px;
+padding:0 10px;
+text-shadow: 0 -1px 0 #000;
+
+}
+.display1 button{
+	background:linear-gradient(#333333,#222222);
+	
+	border-radius: 5px;
+
+	color: #888;
+	display: block;
+font-family:arial;
+height: 40px;
+width: 400px;
+font-size: 14px;
+margin: 20px auto 10px;
+padding:0 10px;
+text-shadow: 0 -1px 0 #000;
+
+}
+button{
+	background:linear-gradient(#333333,#222222);
+	
+	border-radius: 5px;
+	box-shadow: 0 2 px 0 #000 0;
+	color: #888;
+	display: block;
+font-family:arial;
+height: 40px;
+width: 330px;
+font-size: 14px;
+margin: 20px auto 10px;
+padding:0 10px;
+text-shadow: 0 -1px 0 #000;
+
+}
+
+select:hover{
+	color: cyan;
+}
+button:hover{border:1px solid cyan;
+	color: cyan;
+	
+}
+
+::placeholder{
+
+
+	color: white;
+}

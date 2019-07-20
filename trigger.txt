@@ -1,0 +1,17 @@
+
+DELIMITER $$
+CREATE TRIGGER `HELP` BEFORE INSERT ON `academic` FOR EACH ROW IF new.cs51<0
+THEN set new.cs51=0;
+elseif new.cs52<0
+then set new.cs52=0;
+elseif new.cs53<0
+then set new.cs53=0;
+elseif new.cs54<0
+then set new.cs54=0;
+elseif new.cs55<0
+then set new.cs55=0;
+elseif new.cs56<0
+then set new.cs56=0;
+end if
+$$
+DELIMITER ;

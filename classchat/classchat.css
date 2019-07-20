@@ -1,0 +1,189 @@
+
+*{
+
+	margin: 0;
+	padding: 0;
+
+
+}
+
+body{
+
+	margin: 0 auto;
+	background-image: url(nat.jpg);
+	background-size: cover;
+	//background:linear-gradient(#444444,black );
+
+}
+
+.nav{
+
+	margin:  10px auto;
+	margin-left:18%;
+	width: 80%;
+	height: 50px;
+	
+
+}
+
+.chatbox{
+
+	width:600px;
+	min-width: 300px;
+	height:700PX;
+	border-radius: 20px;
+	background: black;
+	padding: 25px;
+	margin: 40px auto;
+	box-shadow: 0  5px 40px   #7df9ff;
+}
+.chatlog{
+	padding-left:2px;
+	margin-top: 10px ;
+	width: 100%;
+	height: 450px;
+	//background:#222;
+	background-image: url(dragon.jpg);
+	background-size: cover; 
+	border-radius: 20px;
+
+	overflow-x: hidden;
+	overflow-y: scroll;
+
+
+}
+
+.chatlog::-webkit-scrollbar{
+
+	width: 10px;
+}
+
+
+.chatlog::-webkit-scrollbar-thumb{
+	border-radius: 5px;
+	background: rgba(0,0,0,.1);
+
+}
+.message p {
+	width: 70%;
+	word-wrap: break-word;
+	padding: 15px;
+	margin: 5px 10px 0;
+	background-image: url(chat.jpg);
+	background-repeat: repeat-y;
+	background-size: cover;
+	border-radius: 20px;
+	font-size: 18px;
+	color: white;
+
+
+}
+
+
+
+
+.chatbox .bar{
+	padding:9px;
+	margin-top:2px
+	width: 100%;
+	height: 30px;
+	background-image: url(title.jpg);
+	background-repeat: repeat-y;
+	background-size: cover;
+	border-radius:20px;
+	text-align: center;
+	color: white;
+	font-size: 30px
+
+}
+
+
+
+
+
+
+
+.nav ul {
+
+	list-style: none;
+}
+.nav ul li{
+	float: left;
+	width: 200px;
+	padding:17px;
+	margin: 10px;
+	border-radius: 20px;
+	//background:silver;
+	background-image: url(sec.jpg);
+	background-repeat: repeat-y;
+	background-size: cover;
+	text-align: center;
+	color: white;
+
+}
+.nav  a{ 
+
+
+	text-decoration: none;
+	font-size: 20px;
+
+}
+#ff {
+
+
+
+
+
+}
+
+
+
+
+
+#ff :hover{
+
+
+ background-image: url(ggg.jpg);
+	
+}
+
+.gg{
+
+background: #222;
+background: linear-gradient(#333333,#222222);
+border: 1px solid #444;
+border-radius: 10px;
+box-shadow: 0 2px 0 #000 0 ;
+color: #888;
+display: block;
+float: left;
+font-family: arial;
+height: 60px;
+width: 400px;
+font-size: 14px;
+margin: 20px  10px;
+padding: 1 10px;
+text-shadow: 0 -1px 0 #000;
+
+}
+.gs{
+
+background: #222;
+background: linear-gradient(#333333,#222222);
+border: 1px solid #444;
+border-radius: 30px;
+box-shadow: 0 2px 0 #000 0 ;
+color: #888;
+display: block;
+float: right;
+
+font-family: arial;
+height: 60px;
+width: 110px;
+font-size: 14px;
+margin: 20px  10px;
+padding: 1 10px;
+text-shadow: 0 -1px 0 #000;
+
+}
+

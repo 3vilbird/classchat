@@ -1,0 +1,194 @@
+
+*{
+
+	margin: 0;
+	padding: 0;
+	
+
+
+}
+
+body{
+
+	margin: 0 auto;
+	
+	background:#222222;
+	//background-image: url(nature.jpg);
+}
+
+.outbox{
+
+	width: 40%;
+	height: 990px;
+	margin-left: 30%;
+	margin-top: 20px;
+	background: black;
+	
+	border:3px dashed #0bfaee ;
+	box-shadow: 2px 5px 80px black;
+
+}
+.pro{
+	margin-left: 33%; 
+
+}
+
+.circle{
+
+margin-left: 20%;
+margin-top:30px;
+position: relative;
+ width: 250px;
+ height: 250px;
+ background-repeat: no-repeat;
+ background-size: cover;
+
+ 
+ border-radius: 50%;
+
+
+
+}
+
+.name{
+
+ width: 40%;
+ height: 40px;
+ margin-left: 15%;
+ margin-top: 20px;
+ border-radius: 17px;
+ text-align: center;
+ font-style:italic;
+
+ font-size: 30px;
+
+
+ background: white;
+ 
+}
+
+.upload{
+
+	
+   margin-left: 150%;
+
+    margin-top: 30px;
+}
+
+#ss{
+
+	margin-top: 10px;
+ width: 100px;
+height: 40px;
+color: white;
+border-radius: 10px;
+border:none;
+box-shadow: 2px 2px  5px #51ff0d;
+background: linear-gradient(#333333 ,#222222);
+
+}
+
+#dd{
+	width: 100px;
+height: 40px;
+color: white;
+border-radius: 10px;
+border:none;
+box-shadow: 2px 2px  5px #51ff0d;
+background: linear-gradient(#333333 ,#222222);
+
+
+
+}
+
+
+
+
+.status{
+margin: 20px;
+width: 500px;
+height: 50px;
+color: white;
+border:none;
+border-radius: 10px;
+background: linear-gradient(#333333 ,#222222);
+
+
+}
+#but{
+
+margin: 20px;
+width: 100px;
+height: 40px;
+color: white;
+border-radius: 10px;
+border:none;
+box-shadow: 2px 2px  5px #51ff0d;
+background: linear-gradient(#333333 ,#222222);
+
+}
+#butt{
+	margin-left:  40%;
+	position: relative;
+width: 100px;
+height: 40px;
+color: white;
+border-radius: 10px;
+border:none;
+box-shadow: 2px 2px  5px #51ff0d;
+background: linear-gradient(#333333 ,#222222);
+}
+
+.view{
+margin: 15px;
+width: 90%;
+
+height: 390px;
+background: white;
+overflow-y: scroll;
+
+
+}
+.state{
+
+width: 98%;
+height: 130px;
+background: black;
+margin: 10px;
+border-radius: 20px;
+//text-align: center;
+position: relative;
+
+
+}
+.inner{
+ width: 100px;
+ height: 100px;
+position: relative;
+ background: white;
+float: left;
+margin-left: 10px; 
+margin-top: 15px; 
+ 
+ border-radius:50%; 
+}
+
+.innerstate{
+ width: 80%;
+ height: 100px;
+position: relative;
+ background: white;
+float: right;
+margin-right: 10px; 
+margin-top: 15px; 
+text-align: center;
+
+ 
+ border-radius:70px; 
+}
+
+#gd{
+
+
+	float: right;
+}
